@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class EvenNo{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter any number");
+		int n1=sc.nextInt();
+		String s= (n1/2==0)? "Even":"odd";
+		System.out.println("The number is:"+ s);
+}}
